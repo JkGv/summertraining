@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Css Js/materialize.css" />
+    <link rel="stylesheet" href="Css Js/style.css" />
+    <link rel="stylesheet" href="Css Js/style-login.css" />
+    <link rel="stylesheet" href="Css Js/style-signup.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <title>Ligma Store</title>
+  </head>
+  <body>
+    <section class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" class="navbar-logo">Ligma</a>
+          <ul id="nav-mobile" class="right navbar-items">
+            <li>
+              <a href="index.html"><i class="material-icons">home</i></a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <a href="#" class="dropbtn"
+                  >Products
+                  <i class="material-icons right">arrow_drop_down</i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="mobile.html">Smart Phones</a>
+                  <a href="laptop.html">Laptops</a>
+                  <a href="watch.html">Smart Watches</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#"
+                >Cart
+                <i class="material-icons right">shopping_cart</i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="material-icons">account_circle</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section class="loginHome">
+      <div class="login row">
+        <h1>SignUp</h1>
+        <br />
+        <form class="col s12">
+          <div class="input-field row">
+            <i class="material-icons prefix">person</i>
+            <input id="name" type="text" class="validate" />
+            <label for="name">Name</label>
+          </div>
+          <br />
+          <div class="input-field row">
+            <i class="material-icons prefix">person</i>
+            <input id="username" type="text" class="validate" />
+            <label for="username">Username</label>
+          </div>
+          <br />
+          <div class="input-field row">
+            <i class="material-icons prefix">lock</i>
+            <input id="password" type="password" class="validate" />
+            <label for="password">Password</label>
+          </div>
+          <br />
+          <div class="login-btn">
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">last_page</i>LOGIN</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

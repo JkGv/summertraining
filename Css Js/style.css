@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dosis:wght@500&display=swap");
+.navbar-logo {
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 5rem;
+  padding: 0px 10px 3px 10px;
+  background-color: #f54538;
+  border-radius: 2rem;
+}
+
+.navbar-items {
+  margin-right: 2rem;
+  font-size: 28px;
+  font-family: "Dosis", sans-serif;
+}
+
+.navbar-items li a {
+  padding: 0px 25px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.navbar-items li a:hover {
+  background-color: #f54538;
+  border-radius: 2rem;
+}
+
+.dropbtn {
+  color: white;
+  background-color: #202020;
+  font-size: 18px;
+  border: none;
+  font-family: "Dosis", sans-serif;
+  padding-right: 25px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown a:hover {
+  background-color: #f54538;
+  border-radius: 2rem;
+}
+
+.dropdown-content {
+  font-size: 20px;
+  position: inherit;
+  min-width: 130px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 20;
+}
+
+.dropdown-content a {
+  color: white;
+  background-color: #202020;
+  padding: 5px 0px;
+  text-decoration: none;
+}
+
+.dropdown-content:hover {
+  background-color: #f54538;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.text h2 {
+  color: white;
+  font-family: "Architects Daughter", cursive;
+  font-size: 4.2rem;
+  font-weight: bold;
+}
+
+.text p {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+.text a {
+  font-weight: bold;
+  padding: 7px 15px;
+  margin-right: 110px;
+  color: #f54538;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+.text a:hover {
+  background-color: #f54538;
+  border-radius: 2rem;
+  color: white;
+}
+
+.slider {
+  background: radial-gradient(#525252, #070707);
+  height: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #f54538;
+  border-radius: 1rem;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
